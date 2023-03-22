@@ -6,6 +6,6 @@ on:
 jobs:
   scan:
     name: Scan
-    uses: newfolder2023/wordsmith-web/.github/workflows/reusable-trivy.yml@main
+    uses: newfolder2023/actions/.github/workflows/reusable-trivy.yml@main
 
 
