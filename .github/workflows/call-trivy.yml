@@ -1,0 +1,11 @@
+name: Call Trivy
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  scan:
+    name: Scan
+    uses: newfolder2023/wordsmith-web/.github/workflows/reusable-trivy.yml@main
+
+
